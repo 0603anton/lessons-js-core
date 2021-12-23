@@ -1,0 +1,160 @@
+body,
+html {
+	width: 100%;
+	background: rgb(0, 255, 250);
+	background: linear-gradient(15deg, rgba(0, 255, 250, 0.1) 0%, rgba(217, 255, 142, 0.2) 37%, rgba(214, 255, 154, 0.3) 57%, rgba(0, 184, 63, 0.3) 91%);
+	font-size: 10px;
+	font-family: sans-serif;
+	line-height: 1.7;
+}
+
+.person {
+	/* добавьте ваш код  */
+	max-width: 144rem;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/* justify-content: ; */
+	font-size: 1.6rem;
+	color: #000;
+	padding: 3.2rem 10% 0 10%;
+}
+
+.person__info {
+	/* добавьте ваш код  */
+	max-width: 48rem;
+	margin-bottom: 3.2rem;
+}
+
+.person__contacts {
+	/* добавьте ваш код  */
+}
+
+.person__details {
+	/* добавьте ваш код  */
+}
+
+.avatar {
+	/* добавьте ваш код  */
+	margin-right: 3.2rem;
+	border: 3.2rem solid #fff;
+	border-radius: 1000px;
+}
+
+.avatar__picture {
+	/* добавьте ваш код  */
+	border-radius: 1000px;
+}
+
+.contacts {
+	/* добавьте ваш код  */
+	font-weight: 900;
+}
+
+.contacts__name {
+	/* добавьте ваш код  */
+	font-size: 3.2rem;
+}
+
+.contacts__role {
+	/* добавьте ваш код  */
+	font-size: 1.92rem;
+	margin-bottom: 3.2rem;
+}
+
+.contacts__item {
+	/* добавьте ваш код  */
+	font-size: 1.6rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.contacts__title {
+	/* добавьте ваш код  */
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.contacts__title:after {
+	/* добавьте ваш код  */
+}
+
+.contacts__link {
+	/* добавьте ваш код  */
+	color: grey;
+}
+
+.paragraph {
+	/* добавьте ваш код  */
+	margin-bottom: 1.6rem;
+	font-weight: 600;
+}
+
+.paragraph_last {
+	/* добавьте ваш код  */
+	margin-bottom: 4.8rem;
+}
+
+.motivation {
+	font-weight: 600;
+}
+
+.motivation__item {
+	margin-left: 1.2rem;
+	list-style: circle;
+}
+
+.motivation__item:last-child {
+	margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.person {
+		/* добавьте ваш код  */
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.6rem;
+		color: #000;
+
+	}
+
+	.avatar {
+		/* добавьте ваш код  */
+		margin: 0;
+		align-self: center;
+		border: 1.2rem solid #fff;
+		border-radius: 1000px;
+	}
+
+	.contacts__name {
+		/* добавьте ваш код  */
+		text-align: center;
+	}
+
+	.contacts__role {
+		/* добавьте ваш код  */
+		text-align: center;
+	}
+
+	.person__contacts {
+		/* добавьте ваш код  */
+		max-width: 48rem;
+		width: 100%;
+		margin-bottom: 1.6rem;
+	}
+
+	.motivation {
+		font-weight: 400;
+	}
+
+	.paragraph {
+		/* добавьте ваш код  */
+		margin-bottom: 1.6rem;
+		font-weight: 500;
+	}
+}
