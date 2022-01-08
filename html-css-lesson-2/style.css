@@ -48,6 +48,11 @@ html {
 .avatar__picture {
 	/* добавьте ваш код  */
 	border-radius: 1000px;
+	transition: all 1s;
+}
+
+.avatar__picture:hover {
+	transform: rotate(180deg);
 }
 
 .contacts {
