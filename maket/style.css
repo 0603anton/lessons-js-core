@@ -56,3 +56,25 @@ html {
 .filter__elem_last-elem {
   margin-left: auto;
 }
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border: #8055FF 2px solid;
+}
+
+.table__header {
+  flex-basis: 4.8rem;
+  background-color: #8055FF;
+}
+
+.table__body {
+  background-color: #A8A8FF;
+  flex-basis: 51.2rem;
+  overflow: auto;
+}
+
+.table__footer {
+  flex-basis: 4.8rem;
+  background-color: #8055FF;
+}
