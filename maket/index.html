@@ -5,42 +5,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
   <title>Резиновый макет</title>
 </head>
 
 <body>
-  <div class="header">
-    <div class="container">
-      <div class="header__content-inner">
-        <div class="logo">
-          <a class="logo__link" href="#">Page header</a>
-        </div>
-      </div>
+  <div class="wrapper">
+    <div class="header margin_medium">
+      <h1 class="header__page-name">
+        Page header
+      </h1>
     </div>
-  </div>
-  <main>
-    <div class="filter">
-      <div class="container">
-        <div class="filter__content-inner">
-          <div class="filter__elem filter__elem_lg"></div>
-          <div class="filter__elem filter__elem_sm"></div>
-          <div class="filter__elem filter__elem_sm"></div>
-        </div>
+    <main>
+      <div class="filter">
+        <div class="filter__elem filter__elem_lg"></div>
+        <div class="filter__elem filter__elem_sm"></div>
+        <div class="filter__elem filter__elem_sm filter__elem_last-elem"></div>
       </div>
-    </div>
 
-    <div class="table">
-      <div class="continer">
-        <div class="table__content-inner">
-          <div class="table__header"></div>
-          <div class="table__body"></div>
-          <div class="table__footer"></div>
+      <div class="table">
+        <div class="continer">
+          <div class="table__content-inner">
+            <div class="table__header"></div>
+            <div class="table__body"></div>
+            <div class="table__footer"></div>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
 </body>
 
 </html>
