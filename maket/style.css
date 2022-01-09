@@ -61,6 +61,8 @@ html {
   display: flex;
   flex-direction: column;
   border: #8055FF 2px solid;
+  max-height: min-content;
+
 }
 
 .table__header {
@@ -68,10 +70,11 @@ html {
   background-color: #8055FF;
 }
 
+/* НЕ могу понять почему здесь не работает flex-shrink, как здесь сделать сайт резиновым провильно */
+
 .table__body {
   background-color: #A8A8FF;
-  flex-basis: 51.2rem;
-  overflow: auto;
+  flex: 1 1 51.2rem;
 }
 
 .table__footer {
