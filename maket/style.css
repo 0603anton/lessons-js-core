@@ -6,6 +6,7 @@ html {
   box-shadow: 0px 32px 128px rgba(0, 0, 0, 0.5),
     0px 16px 32px rgba(0, 0, 0, 0.34),
     0px 8px 8px rgba(0, 0, 0, 0.25);
+
 }
 
 .margin_medium {
@@ -16,6 +17,7 @@ html {
   margin: 0 auto;
   max-width: 160rem;
   padding: 32px 48px 0px;
+
 }
 
 .header {
@@ -61,8 +63,7 @@ html {
   display: flex;
   flex-direction: column;
   border: #8055FF 2px solid;
-  max-height: min-content;
-
+  height: 100vh;
 }
 
 .table__header {
